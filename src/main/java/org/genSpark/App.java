@@ -1,31 +1,18 @@
 package org.genSpark;
 
-
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 
 public class App {
-
-
     public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        AbstractApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
-        Student student_1 = (Student) context.getBean("Student");
+        Phone s7 = (Samsung) context.getBean(Samsung.class) ;
+        Phone iphone13 = (Apple) context.getBean(Apple.class) ;
 
-
-        System.out.println(student_1.getName());
-        System.out.println(student_1.getId());
-        System.out.println(student_1.getAddress());
-        System.out.println(student_1.getPh());
-
-
-
-        context.close();
-
-
+        s7.config();
+        iphone13.config();
 
     }
-
-
 }
