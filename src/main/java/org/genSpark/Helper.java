@@ -13,13 +13,13 @@ public class Helper {
 
     //ALL CROSS CUTTING CONCERNS HERE
 
-    @Before("execution(public void show())")
+    @Before("execution(public void log())")
     public void log() {
         System.out.println("Log opened");
     }
 
 
-    @After("execution(public void show())")
+    @After("execution(public void log())")
     public void logClose() {
         System.out.println("Log closed");
     }

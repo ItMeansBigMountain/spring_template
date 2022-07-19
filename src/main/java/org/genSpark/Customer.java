@@ -5,21 +5,47 @@ import org.springframework.stereotype.Component;
 @Component
 public class Customer {
 
-    public void show()
+    public int credits;
+    public int score;
+
+
+    public Customer()
     {
-        // 2-3 LOG
-        // 2-3 TRANSACTION
-        // 2-3 SECURITY
+        this.credits = 10;
+        this.score = 0;
+    }
+
+    public int getCredits() {
+        return credits;
+    }
+
+    public void setCredits(int credits) {
+        this.credits = credits;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
 
 
 
+    public void spend()
+    {
         // 10-15 BUSINESS LOGIC
-        System.out.println("hello world");
+        this.setCredits(this.getCredits()-1);
+        this.setScore(this.getScore()+1);
 
+    }
+    public void log()
+    {
+        // 10-15 BUSINESS LOGIC
+        System.out.println("CREDITS: " + this.getCredits());
+        System.out.println("SCORE: " + this.getScore());
 
-        // 2-3 CLOSING LOG
-        // 2-3 CLOSING TRANSACTION
-        // 2-3 CLOSING SECURITY
     }
 
 
