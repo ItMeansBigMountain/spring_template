@@ -13,23 +13,20 @@
         <property name="name" value="Affan"/>
         <property name="id" value="9999"/>
         <property name="address" ref="Address"/>
-        <property name="ph" ref="Phone"/>
+        <property name="ph">
+            <list>
+                <bean id="Phone" class="org.genSpark.Phone">
+                    <property name="mob" value="111-111-1111"/>
+                </bean>
+                <bean id="Phone2" class="org.genSpark.Phone">
+                    <property name="mob" value="222-222-2222"/>
+                </bean>
+                <bean id="Phone3" class="org.genSpark.Phone">
+                    <property name="mob" value="333-333-3333"/>
+                </bean>
+            </list>
+        </property>
     </bean>
-
-
-    <bean id="Phone" class="org.genSpark.Phone">
-        <property name="mob" value="111-111-1111"/>
-    </bean>
-    <bean id="Phone2" class="org.genSpark.Phone">
-        <property name="mob" value="222-222-2222"/>
-    </bean>
-    <bean id="Phone3" class="org.genSpark.Phone">
-        <property name="mob" value="333-333-3333"/>
-    </bean>
-
-
-
-
 
 
     <bean id="Address" class="org.genSpark.Address">

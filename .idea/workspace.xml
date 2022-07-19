@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea22c3d7-b785-4c99-9f8e-fe4d7954707d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/Phone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

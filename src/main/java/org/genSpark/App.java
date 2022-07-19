@@ -18,6 +18,8 @@ public class App {
         System.out.println(student_1.getAddress());
         System.out.println(student_1.getPh());
 
+
+
     }
 
 

@@ -1,5 +1,7 @@
 package org.genSpark;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.List;
 
 public class Student {
@@ -8,6 +10,8 @@ public class Student {
     private String name;
     private int id;
     private Address address;
+
+    @Autowired
     private List<Phone> ph;
 
 
