@@ -8,11 +8,8 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        Phone s7 = (Samsung) context.getBean(Samsung.class) ;
-        Phone iphone13 = (Apple) context.getBean(Apple.class) ;
-
-        s7.config();
-        iphone13.config();
+        Customer c = (Customer) context.getBean(Customer.class);
+        c.show();
 
     }
 }

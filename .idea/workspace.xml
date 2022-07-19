@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea22c3d7-b785-4c99-9f8e-fe4d7954707d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/MediaTech.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/MobileProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/SnapDragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Address.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/genSpark/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/MediaTech.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/MobileProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/Samsung.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/genSpark/SnapDragon.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/faree/Desktop/java programs/spring_template",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/faree/Desktop/java programs/spring_template&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
