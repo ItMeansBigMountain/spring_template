@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--INIT BEAN FILE-->
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:util="http://www.springframework.org/schema/util"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-           http://www.springframework.org/schema/beans/spring-beans.xsd
-           http://www.springframework.org/schema/util
-   		   http://www.springframework.org/schema/util/spring-util.xsd">
+       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <!-- ENTER BEANS HERE    -->
-    <bean id="Student" class="org.genSpark.Student">
+    <!-- INIT ANNOTATION COMPONENTS  -->
+    <context:component-scan base-package="org.genSpark"/>
+
+
+    <!-- STUDENT    -->
+    <bean id="Student" class="org.genSpark.Student" init-method="init" destroy-method="destroy">
         <property name="name" value="Affan"/>
         <property name="id" value="9999"/>
-        <property name="address" ref="Address"/>
+
+        <!--  BEAN LIST  -->
         <property name="ph">
             <list>
                 <bean id="Phone" class="org.genSpark.Phone">
@@ -26,13 +33,19 @@
                 </bean>
             </list>
         </property>
+
+        <!-- ANNOTATION INSTANTIATION -->
+        <property name="address" ref="address"/>
     </bean>
 
 
-    <bean id="Address" class="org.genSpark.Address">
+
+
+
+    <!--    overLoad component with a bean-->
+    <bean id="address" class="org.genSpark.Address">
         <property name="city" value="Chicago"/>
         <property name="state" value="IL"/>
-        <property name="country" value="USA"/>
     </bean>
 
 

@@ -1,9 +1,18 @@
 package org.genSpark;
 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class Address {
     private String city;
     private String state;
     private String country;
+
+    public Address()
+    {
+        this.country = "USA";
+    }
 
 
     public String getCity() {

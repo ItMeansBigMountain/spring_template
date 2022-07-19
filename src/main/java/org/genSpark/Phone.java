@@ -1,5 +1,9 @@
 package org.genSpark;
 
+
+import org.springframework.stereotype.Component;
+
+
 public class Phone {
     private String mob;
 

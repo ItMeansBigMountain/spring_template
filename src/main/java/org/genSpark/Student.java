@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
+
+
+
 public class Student {
 
 
@@ -11,9 +14,16 @@ public class Student {
     private int id;
     private Address address;
 
-    @Autowired
     private List<Phone> ph;
 
+
+    public void init() {
+        System.out.println("hello???");
+    }
+
+    public void destroy() {
+        System.out.println("bye!!!");
+    }
 
 
     public int getId() {
