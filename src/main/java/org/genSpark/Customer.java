@@ -1,19 +1,22 @@
 package org.genSpark;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 
 @Component
 public class Customer {
 
+    @Value("#{10}")
     public int credits;
+    @Value("#{0}")
     public int score;
 
 
-    public Customer()
-    {
-        this.credits = 10;
-        this.score = 0;
-    }
+    // public Customer()
+    // {
+    //     this.credits = 10;
+    //     this.score = 0;
+    // }
 
     public int getCredits() {
         return credits;
